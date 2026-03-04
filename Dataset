@@ -1,0 +1,3 @@
+## Data Source
+
+Pitch-level data is obtained from MLB Statcast using the Pybaseball API.
