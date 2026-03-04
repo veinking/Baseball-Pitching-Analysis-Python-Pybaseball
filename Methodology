@@ -1,0 +1,26 @@
+## Methodology
+
+The analysis follows a structured data workflow:
+
+1. **Data Extraction**
+   - Pull Statcast pitch-level data using the Pybaseball API.
+
+2. **Data Cleaning**
+   - Filter relevant columns and remove missing values.
+
+3. **Feature Engineering**
+   - Calculate fastball velocity averages.
+   - Compute fastball usage percentage.
+   - Create outcome indicators for hits, strikeouts, and outs.
+
+4. **Aggregation**
+   - Aggregate pitcher-level statistics using groupby operations.
+
+5. **Pitcher Classification**
+   - Categorize pitchers into archetypes based on velocity and pitch usage.
+
+6. **Visualization**
+   - Analyze relationships between velocity and strikeout rate using scatter plots.
+
+7. **Export**
+   - Generate a cleaned dataset for further analysis.
